@@ -1,0 +1,22 @@
+What is the IP address of the DNS/HTTP client in this trace file?
+dns.qry.name
+http request
+
+What is the IP address of the DNS server?
+dns
+
+What DNS response time is seen in this trace file?
+dns
+
+What are the IP addresses of the HTTP servers to which the client
+successfully connected?
+http.request
+
+What are the HTTP host names of the target HTTP servers?
+http.request
+
+How many TCP SYN packets did the client send to the HTTP servers? Display Flow Graph
+limited to display filter.
+tcp.flags.syn == 1 and tcp.flags.ack == 0
+
+How many UDP streams are in this trace file? Follow UDP Stream.
