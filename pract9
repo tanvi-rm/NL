@@ -20,3 +20,21 @@ limited to display filter.
 tcp.flags.syn == 1 and tcp.flags.ack == 0
 
 How many UDP streams are in this trace file? Follow UDP Stream.
+udp.stream eq0
+conversations
+follow the stream
+
+How many TCP streams are in this trace file? Follow TCP Stream.
+tcp.stream eq0
+conversations
+follow the stream
+
+
+what is the totla number of http packets in this trace file? SHow its flow graph.
+http
+
+display packets whose source ip address is 98.136.187.13
+ip.src == 98.136.187.13
+
+display packets received from 198.168.1.72
+http and ip.src == 98.136.187.13
