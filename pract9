@@ -25,7 +25,7 @@ conversations
 follow the stream
 
 How many TCP streams are in this trace file? Follow TCP Stream.
-tcp.stream eq0
+tcp.stream
 conversations
 follow the stream
 
